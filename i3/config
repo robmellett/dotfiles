@@ -249,8 +249,8 @@ for_window [class="Timeset-gui"] floating enable border normal
 for_window [class="(?i)virtualbox"] floating enable border normal
 for_window [class="Xfburn"] floating enable
 
-# Custom Overrides
-for_window [class = "code-oss"] layout tabbed
+# Custom Window Overrides
+for_window [title="win0"] floating enable # PHPStorm & Datagrip
 for_window [class = "code-oss"] layout tabbed
 for_window [class="^jetbrains-.+"][window_type=dialog] focus
 for_window [class="^jetbrains-.+"] layout tabbed
