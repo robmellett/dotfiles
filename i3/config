@@ -168,7 +168,6 @@ set $ws8 "8:kraken"
 set $ws9 "9:chat"
 set $ws10 "10:brave"
 
-
 # switch to workspace
 bindsym $mod+1 workspace $ws1
 bindsym $mod+2 workspace $ws2
@@ -249,8 +248,8 @@ for_window [class="Xfburn"] floating enable
 
 
 # Custom Overrides
-for_window [class = "Code"] layout tabbed
-for_window [class = "Code"] layout tabbed
+for_window [class = "code-oss"] layout tabbed
+for_window [class = "code-oss"] layout tabbed
 for_window [class="^jetbrains-.+"][window_type=dialog] focus
 for_window [class="^jetbrains-.+"] layout tabbed
 for_window [class="^datagrip-.+"] layout tabbed
