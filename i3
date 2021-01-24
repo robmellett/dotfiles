@@ -1,0 +1,1 @@
+/home/rob/.config/i3/
