@@ -29,6 +29,7 @@ Xft.dpi: 110
 
 Refresh the config with
 `xrdb ~/.Xresources`
+`xrdb -merge ~/.Xresources`
 
 ## I3 Application Bindings
 To set specific application bindings, you can find the application name by running `xprop` and copy the **second** value in `WM_CLASS_STRING`.
