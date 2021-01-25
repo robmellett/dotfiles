@@ -174,6 +174,7 @@ alias pbcopy="xclip -sel clip"
 
 # Sort files by Size
 alias lt='ls --human-readable --size -1 -S --classify'
+alias ll='ls -la'
 
 # Sort by modification time
 alias left='ls -t -1'
