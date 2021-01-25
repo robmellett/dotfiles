@@ -116,8 +116,8 @@ shopt -s histappend
 #
 # Variables
 #
+export BROWSER="/usr/bin/brave"
 export AWS_DEFAULT_REGION="ap-southeast-2" 
-
 
 #
 # PATH
