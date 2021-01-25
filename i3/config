@@ -157,7 +157,7 @@ set $ws3 "3:insomnia"
 set $ws4 "4:datagrip"
 set $ws5 "5:tinkerwell"
 set $ws6 "6:"
-set $ws7 "7:"
+set $ws7 "7:crypto"
 set $ws8 "8:kraken"
 set $ws9 "9:chat"
 set $ws10 "10:brave"
@@ -206,6 +206,7 @@ assign [class="jetbrains-phpstorm"] $ws1
 assign [class="Code"] $ws1
 assign [class="Insomnia"] $ws3
 assign [class="jetbrains-datagrip"] $ws4
+assign [class="cryptowatch_desktop"] $ws7
 assign [class="GitKraken"] $ws8
 assign [class="Slack"] $ws9
 assign [class="discord"] $ws9 
