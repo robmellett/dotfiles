@@ -12,6 +12,14 @@ Try editing the following files [https://wiki.archlinux.org/index.php/GTK#Basic_
 
 `~/.config/gtkrc-2.0/settings.ini`
 
+
+## Turning off Firefox Dark Mode
+Edit 
+`/usr/share/applications/firefox-developer-edition.desktop`
+
+Change the last line to read:
+`GTK_THEME=Adapta-Maia firefox-developer-edition`
+
 ## XResources
 Edit `~/.Xresources`
 - [https://wiki.archlinux.org/index.php/X_resources]
