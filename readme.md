@@ -17,8 +17,8 @@ Try editing the following files [https://wiki.archlinux.org/index.php/GTK#Basic_
 Edit 
 `/usr/share/applications/firefox-developer-edition.desktop`
 
-Change the last line to read:
-`GTK_THEME=Adapta-Maia firefox-developer-edition`
+Change the 3 Exec lines to read:
+`Exec=env GTK_THEME=Adapta-Maia /usr/lib/firefox-developer-edition/firefox %u`
 
 ## XResources
 Edit `~/.Xresources`

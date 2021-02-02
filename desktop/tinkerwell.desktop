@@ -1,0 +1,28 @@
+[Desktop Entry]
+
+# The type as listed above
+Type=Application
+
+# The version of the desktop entry specification to which this file complies
+Version=2.11.0
+
+# The name of the application
+Name=Tinkerwell
+
+# A comment which can/will be used as a tooltip
+Comment=The magical code editor that runs your code within local and remote PHP applications.
+
+# The path to the folder in which the executable is run
+Path=/opt/tinkerwell
+
+# The executable of the application, possibly with arguments.
+Exec=/opt/tinkerwell/tinkerwell.AppImage
+
+# The name of the icon that will be used to display this entry
+Icon=tinkerwell
+
+# Describes whether this application needs to be run in a terminal or not
+Terminal=false
+
+# Describes the categories in which this entry should be shown
+Categories=Development;
