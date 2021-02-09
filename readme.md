@@ -55,3 +55,8 @@ You can configure rofi themes by running `rofi-theme-selector`
 Edit `~/.config/mimeapps.list` and set all the http values to `brave.desktop` .
 
 Set `export BROWSER="/usr/bin/brave"` in `~/.bashrc`
+
+
+# Troubleshooting
+If there are problems with the video driver on x1. You might need to remove the following package:
+`sudo pacman -Rsn xf86-video-intel`
