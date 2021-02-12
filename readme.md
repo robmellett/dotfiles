@@ -57,6 +57,13 @@ Edit `~/.config/mimeapps.list` and set all the http values to `brave.desktop` .
 Set `export BROWSER="/usr/bin/brave"` in `~/.bashrc`
 
 
+## Vscode Memory Fix
+- https://github.com/guard/listen/wiki/Increasing-the-amount-of-inotify-watchers
+
+```shell
+echo fs.inotify.max_user_watches=524288 | sudo tee /etc/sysctl.d/40-max-user-watches.conf && sudo sysctl --system
+```
+
 # Troubleshooting
 If there are problems with the video driver on x1. You might need to remove the following package:
 `sudo pacman -Rsn xf86-video-intel`
