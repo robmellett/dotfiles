@@ -180,7 +180,7 @@ alias ll='ls -la'
 alias left='ls -t -1'
 
 # Find a command in your grep history
-alias gh='history|grep'
+alias hg='history | grep'
 
 # Add a copy progress bar
 alias cpv='rsync -ah --info=progress2 --remove-source-files'
