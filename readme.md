@@ -20,6 +20,9 @@ Edit
 Change the 3 Exec lines to read:
 `Exec=env GTK_THEME=Adapta-Maia /usr/lib/firefox-developer-edition/firefox %u`
 
+Copy this file.
+`sudo cp desktop/firefox-developer-edition.desktop /usr/share/applications/firefox-developer-edition.desktop`
+
 ## XResources
 Edit `~/.Xresources`
 - [https://wiki.archlinux.org/index.php/X_resources]
