@@ -73,7 +73,13 @@ Edit
 /boot/grub/grub.cfg
 ```
 
-To update, run
+If you need to set manjaro as the default boot option:
+```shell
+sudo grub-set-default 0
+
+```
+
+To make the changes permanant.
 ```shell
 grub-mkconfig -o /boot/grub/grub.cfg
 ```
