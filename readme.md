@@ -67,6 +67,17 @@ Set `export BROWSER="/usr/bin/brave"` in `~/.bashrc`
 echo fs.inotify.max_user_watches=524288 | sudo tee /etc/sysctl.d/40-max-user-watches.conf && sudo sysctl --system
 ```
 
+## Updating the bootmanager
+Edit
+```shell
+/boot/grub/grub.cfg
+```
+
+To update, run
+```shell
+grub-mkconfig -o /boot/grub/grub.cfg
+```
+
 # Troubleshooting
 If there are problems with the video driver on x1. You might need to remove the following package:
 `sudo pacman -Rsn xf86-video-intel`
