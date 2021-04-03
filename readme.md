@@ -84,6 +84,16 @@ To make the changes permanant.
 grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
+# Fixing the time when dual booting Windows & Arch
+- https://wiki.archlinux.org/index.php/Dual_boot_with_Windows#Time_standard
+- https://wiki.archlinux.org/index.php/System_time#UTC_in_Windows
+
+## Enable NTP
+# https://unix.stackexchange.com/questions/60772/i-messed-up-my-system-clock-in-arch-linux
+```shell
+timedatectl set-ntp true
+```
+
 # Troubleshooting
 If there are problems with the video driver on x1. You might need to remove the following package:
 `sudo pacman -Rsn xf86-video-intel`
