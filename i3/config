@@ -202,6 +202,7 @@ assign [class="jetbrains-phpstorm"] $ws1
 assign [class="Code"] $ws1
 assign [class="Insomnia"] $ws3
 assign [class="jetbrains-datagrip"] $ws4
+assign [class="tinkerwell"] $ws4
 assign [class="vlc"] $ws7 
 assign [class="GitKraken"] $ws8
 assign [class="Slack"] $ws9
