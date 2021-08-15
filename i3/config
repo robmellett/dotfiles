@@ -250,6 +250,10 @@ for_window [class="GitKraken"] layout tabbed
 # switch to workspace with urgent window automatically
 for_window [urgent=latest] focus
 
+# Prevent windows closing on mouse movement.
+# https://i3wm.org/docs/userguide.html#_focus_follows_mouse
+focus_follows_mouse no
+
 # reload the configuration file
 bindsym $mod+Shift+c reload
 
