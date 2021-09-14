@@ -1,7 +1,10 @@
-/*Dracula theme based on the Purple official rofi theme*/
+/*
+* Dracula theme based on the Purple official rofi theme
+* https://github.com/dracula/rofi/blob/master/theme/config1.rasi
+*/
 
 * {
-    font: "Jetbrains Mono 12";
+    font: "Jetbrains Mono 16";
     foreground: #f8f8f2;
     background: #282a36;
     active-background: #6272a4;
