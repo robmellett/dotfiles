@@ -1,3 +1,6 @@
+### Sway Documentaion
+https://wiki.archlinux.org/title/Sway
+
 ## Setup symlinks in `~/.config`.
 
 ```shell
@@ -40,6 +43,13 @@ Refresh the config with
 
 ## I3 Application Bindings
 To set specific application bindings, you can find the application name by running `xprop` and copy the **second** value in `WM_CLASS_STRING`.
+
+If using Sway.
+
+```shell
+swaymsg -t get_tree | grep "app_id"
+```
+
 
 ## Custom Monitors
 Install the application `arandr`.  You can customize the monitors, and save the output `~/.screenlayout`.
