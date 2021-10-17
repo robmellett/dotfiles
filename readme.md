@@ -1,6 +1,11 @@
 ### Sway Documentaion
 https://wiki.archlinux.org/title/Sway
 
+Find fonts to use in Sway.
+```shell
+pango-list | grep Jet
+```
+
 ## Setup symlinks in `~/.config`.
 
 ```shell
