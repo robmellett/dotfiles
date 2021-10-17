@@ -11,3 +11,6 @@ ln -s ~/www/dotfiles/rofi ~/.config/rofi
 ln -s ~/www/dotfiles/SpaceVim/init.toml ~/.SpaceVim.d/init.toml
 ln -s ~/www/dotfiles/sway ~/.config/sway
 ln -s ~/www/dotfiles/waybar ~/.config/waybar
+
+# Set up Shell
+ln -s ~/www/dotfiles/bash/.zshrc ~/.zshrc
