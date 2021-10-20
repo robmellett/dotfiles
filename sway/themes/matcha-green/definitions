@@ -29,10 +29,13 @@ set $color15 #8a553f
 
 #$color0
 set $background-color #141a1b
+
 #$color6
 set $text-color #eeeeee
+
 #color1
 set $selection-color #282a2b
+
 #color12
 set $accent-color #16a085
 

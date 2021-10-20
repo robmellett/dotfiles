@@ -1,10 +1,25 @@
 ### Sway Documentaion
-https://wiki.archlinux.org/title/Sway
+- https://wiki.archlinux.org/title/Sway
+
+## Setting Fonts
+- https://www.reddit.com/r/swaywm/comments/oen0pi/how_do_i_set_the_font_to_jetbrains_mono/
 
 Find fonts to use in Sway.
 ```shell
 pango-list | grep Jet
+``
+
+Check fonts are installed here.
 ```
+/usr/share/fonts/
+
+$HOME/.local/share/fonts
+
+$HOME/.fonts
+```
+
+** You might need to regenerate the font cache with `fc-cache -frv`**
+
 
 ## Setup symlinks in `~/.config`.
 
