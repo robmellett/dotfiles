@@ -1,6 +1,9 @@
 ### Sway Documentaion
 - https://wiki.archlinux.org/title/Sway
 
+You can copy the default Manjaro Skeleton with:
+`cp -rf /etc/skel/.config/* ~/.config`
+
 ## Setting Fonts
 - https://www.reddit.com/r/swaywm/comments/oen0pi/how_do_i_set_the_font_to_jetbrains_mono/
 
