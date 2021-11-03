@@ -130,3 +130,9 @@ timedatectl set-ntp true
 # Troubleshooting
 If there are problems with the video driver on x1. You might need to remove the following package:
 `sudo pacman -Rsn xf86-video-intel`
+
+
+## Screensharing
+- https://wiki.archlinux.org/title/PipeWire#WebRTC_screen_sharing
+
+`chrome://flags/#enable-webrtc-pipewire-capturer`
