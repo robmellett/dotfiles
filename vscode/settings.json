@@ -1,0 +1,60 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {
+    "source.sortImports": "explicit"
+  },
+  "editor.fontFamily": "Jetbrains Mono",
+  "editor.tabSize": 2,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "explorer.confirmDelete": false,
+  "editor.formatOnType": true,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "[terraform]": {
+    "editor.defaultFormatter": "hashicorp.terraform"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.preferredLightColorTheme": "Quiet Light",
+  "workbench.colorTheme": "GitHub Light",
+
+  "search.exclude": {
+    "**/*.mp4": true,
+    "**/*.png": true,
+    "**/*.svg": true,
+    "**/*.webm": true
+  },
+  "github.copilot.editor.enableAutoCompletions": true,
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "workbench.editor.empty.hint": "hidden",
+  "editor.fontSize": 15,
+  "explorer.confirmDragAndDrop": false,
+  "workbench.editor.pinnedTabsOnSeparateRow": true,
+  "files.associations": {
+    "*.toml": "yaml"
+  },
+  "terminal.external.osxExec": "Ghostty.app",
+  "diffEditor.ignoreTrimWhitespace": true,
+  "cSpell.userWords": ["modelcontextprotocol"],
+  "biome.suggestInstallingGlobally": false,
+  "editor.aiStats.enabled": true,
+  "editor.minimap.autohide": "mouseover",
+  "window.zoomLevel": 0.3
+}
