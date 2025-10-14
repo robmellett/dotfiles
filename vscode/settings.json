@@ -2,6 +2,7 @@
   /**
    * Better Defaults
    **/
+  "editor.bracketPairColorization.enabled": true,
   "editor.copyWithSyntaxHighlighting": false,
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.emptySelectionClipboard": false,
@@ -9,6 +10,7 @@
   "window.newWindowDimensions": "inherit",
   "editor.multiCursorModifier": "ctrlCmd",
   "files.trimTrailingWhitespace": true,
+
   "diffEditor.renderSideBySide": false,
   "editor.snippetSuggestions": "top",
   "editor.detectIndentation": false,
@@ -20,12 +22,12 @@
    * Hide Everything
    */
   "workbench.activityBar.visible": false,
-  "workbench.sideBar.location": "right",
+  "workbench.sideBar.location": "left",
   "workbench.statusBar.visible": false,
-  "workbench.editor.showTabs": false,
-  "editor.renderIndentGuides": false,
+  "workbench.editor.showTabs": true,
+  "editor.renderIndentGuides": true,
   "editor.minimap.enabled": false,
-  "editor.lineNumbers": "off",
+  "editor.lineNumbers": "on",
 
   /**
    * Silence The Noise
@@ -56,10 +58,11 @@
   /**
    * Typography
    **/
-  "workbench.colorTheme": "Palenight Theme",
-  "editor.fontFamily": "MonoLisa",
+  "workbench.preferredLightColorTheme": "Quiet Light",
+  "workbench.colorTheme": "GitHub Dark",
+  "editor.fontFamily": "Jetbrains Mono",
   "editor.fontSize": 15,
-  "editor.lineHeight": 45,
+  "editor.lineHeight": 28,
   "editor.suggestFontSize": 15,
   "editor.suggestLineHeight": 28,
   "terminal.integrated.fontSize": 15,
@@ -121,6 +124,18 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
   },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
   "prettier.requireConfig": true,
   "prettier.useEditorConfig": false,
 
@@ -128,6 +143,7 @@
    * Window Settings
    **/
   // "window.nativeTabs": true,
+  "window.zoomLevel": 0.3,
   "window.titleBarStyle": "native",
   "customizeUI.titleBar": "inline",
   "customizeUI.stylesheet": {
