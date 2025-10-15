@@ -144,7 +144,7 @@
 	 * Window Settings
 	 **/
 	// "window.nativeTabs": true,
-	"window.zoomLevel": 0.3,
+	"window.zoomLevel": 0.5,
 	"window.titleBarStyle": "native",
 	"customizeUI.titleBar": "inline",
 	"customizeUI.stylesheet": {
@@ -165,5 +165,7 @@
 	},
 	"cSpell.userWords": ["modelcontextprotocol", "Streamable"],
 	"totalTypeScript.hideAllTips": false,
-	"totalTypeScript.hideBasicTips": false
+	"totalTypeScript.hideBasicTips": false,
+	"git.confirmSync": false,
+	"github.copilot.nextEditSuggestions.enabled": false
 }
