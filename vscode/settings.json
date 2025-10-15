@@ -1,167 +1,169 @@
 {
-  /**
-   * Better Defaults
-   **/
-  "editor.bracketPairColorization.enabled": true,
-  "editor.copyWithSyntaxHighlighting": false,
-  "diffEditor.ignoreTrimWhitespace": false,
-  "editor.emptySelectionClipboard": false,
-  "workbench.editor.enablePreview": false,
-  "window.newWindowDimensions": "inherit",
-  "editor.multiCursorModifier": "ctrlCmd",
-  "files.trimTrailingWhitespace": true,
+	/**
+	 * Better Defaults
+	 **/
+	"editor.guides.indentation": true,
+	"editor.bracketPairColorization.enabled": true,
+	"editor.copyWithSyntaxHighlighting": false,
+	"diffEditor.ignoreTrimWhitespace": false,
+	"editor.emptySelectionClipboard": false,
+	"workbench.editor.enablePreview": false,
+	"window.newWindowDimensions": "inherit",
+	"editor.multiCursorModifier": "ctrlCmd",
+	"files.trimTrailingWhitespace": true,
 
-  "diffEditor.renderSideBySide": false,
-  "editor.snippetSuggestions": "top",
-  "editor.detectIndentation": true,
-  "files.insertFinalNewline": true,
-  "files.trimFinalNewlines": true,
-  "git.enableSmartCommit": true,
+	"diffEditor.renderSideBySide": false,
+	"editor.snippetSuggestions": "top",
+	"editor.detectIndentation": true,
+	"files.insertFinalNewline": true,
+	"files.trimFinalNewlines": true,
+	"git.enableSmartCommit": true,
+	"workbench.sideBar.location": "left",
+	"workbench.editor.showTabs": "multiple",
+	"editor.minimap.enabled": false,
+	"editor.lineNumbers": "on",
 
-  /**
-   * Hide Everything
-   */
-  "workbench.activityBar.visible": false,
-  "workbench.sideBar.location": "left",
-  "workbench.statusBar.visible": false,
-  "workbench.editor.showTabs": true,
-  "editor.renderIndentGuides": true,
-  "editor.minimap.enabled": false,
-  "editor.lineNumbers": "on",
+	/**
+	 * Silence The Noise
+	 */
+	"breadcrumbs.enabled": false,
+	"scm.diffDecorations": "none",
+	"editor.hover.enabled": true,
+	"editor.matchBrackets": "never",
+	"workbench.tips.enabled": true,
+	"editor.colorDecorators": false,
+	"git.decorations.enabled": false,
+	"workbench.startupEditor": "none",
+	"editor.lightbulb.enabled": "off",
+	"editor.selectionHighlight": false,
+	"editor.overviewRulerBorder": false,
+	"editor.renderLineHighlight": "none",
+	"editor.occurrencesHighlight": "off",
+	"problems.decorations.enabled": false,
+	"editor.renderControlCharacters": false,
+	"editor.hideCursorInOverviewRuler": true,
+	"editor.gotoLocation.multipleReferences": "goto",
+	"editor.gotoLocation.multipleDefinitions": "goto",
+	"editor.gotoLocation.multipleDeclarations": "goto",
+	"workbench.editor.enablePreviewFromQuickOpen": false,
+	"editor.gotoLocation.multipleImplementations": "goto",
+	"editor.gotoLocation.multipleTypeDefinitions": "goto",
 
-  /**
-   * Silence The Noise
-   */
-  "breadcrumbs.enabled": false,
-  "scm.diffDecorations": "none",
-  "editor.hover.enabled": false,
-  "editor.matchBrackets": "never",
-  "workbench.tips.enabled": false,
-  "editor.colorDecorators": false,
-  "git.decorations.enabled": false,
-  "workbench.startupEditor": "none",
-  "editor.lightbulb.enabled": false,
-  "editor.selectionHighlight": false,
-  "editor.overviewRulerBorder": false,
-  "editor.renderLineHighlight": "none",
-  "editor.occurrencesHighlight": false,
-  "problems.decorations.enabled": false,
-  "editor.renderControlCharacters": false,
-  "editor.hideCursorInOverviewRuler": true,
-  "editor.gotoLocation.multipleReferences": "goto",
-  "editor.gotoLocation.multipleDefinitions": "goto",
-  "editor.gotoLocation.multipleDeclarations": "goto",
-  "workbench.editor.enablePreviewFromQuickOpen": false,
-  "editor.gotoLocation.multipleImplementations": "goto",
-  "editor.gotoLocation.multipleTypeDefinitions": "goto",
+	/**
+	 * Typography
+	 **/
+	"workbench.preferredLightColorTheme": "Quiet Light",
+	"workbench.colorTheme": "GitHub Dark",
+	"editor.fontFamily": "Jetbrains Mono",
+	"editor.fontSize": 15,
+	"editor.lineHeight": 28,
+	"editor.suggestFontSize": 15,
+	"editor.suggestLineHeight": 28,
+	"terminal.integrated.fontSize": 15,
+	"terminal.integrated.lineHeight": 1.5,
 
+	/**
+	 * Find
+	 **/
+	"search.useIgnoreFiles": false,
+	"search.exclude": {
+		// Hide everything in /vendor, except the "laravel" and "livewire" folder.
+		"**/vendor/{[^l],?[^ai]}*": true,
+		// Hide everything in /public, except "index.php"
+		"**/public/{[^i],?[^n]}*": true,
+		"**/node_modules": true,
+		"**/dist": true,
+		"**/_ide_helper.php": true,
+		"**/composer.lock": true,
+		"**/package-lock.json": true,
+		"**/yarn.lock": true,
+		"**/pnpm-lock.yaml": true,
+		"storage": true,
+		".phpunit.result.cache": true
+	},
 
-  /**
-   * Typography
-   **/
-  "workbench.preferredLightColorTheme": "Quiet Light",
-  "workbench.colorTheme": "GitHub Dark",
-  "editor.fontFamily": "Jetbrains Mono",
-  "editor.fontSize": 15,
-  "editor.lineHeight": 28,
-  "editor.suggestFontSize": 15,
-  "editor.suggestLineHeight": 28,
-  "terminal.integrated.fontSize": 15,
-  "terminal.integrated.lineHeight": 1.5,
+	/**
+	 * Code
+	 **/
+	// Include "-" in word selection.
+	"editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
+	"emmet.includeLanguages": {
+		"blade": "html",
+		"vue-html": "html",
+		"vue": "html"
+	},
+	"files.associations": {
+		".php_cs": "php",
+		".php_cs.dist": "php",
+		"*.toml": "yaml"
+	},
 
-  /**
-   * Find
-   **/
-  "search.useIgnoreFiles": false,
-  "search.exclude": {
-    // Hide everything in /vendor, except the "laravel" and "livewire" folder.
-    "**/vendor/{[^l],?[^ai]}*": true,
-    // Hide everything in /public, except "index.php"
-    "**/public/{[^i],?[^n]}*": true,
-    "**/node_modules": true,
-    "**/dist": true,
-    "**/_ide_helper.php": true,
-    "**/composer.lock": true,
-    "**/package-lock.json": true,
-    "storage": true,
-    ".phpunit.result.cache": true
-  },
+	/**
+	 * PHP
+	 **/
+	"php.suggest.basic": false,
 
-  /**
-   * Code
-   **/
-  // Include "-" in word selection.
-  "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
-  "emmet.includeLanguages": {
-    "blade": "html",
-    "vue-html": "html",
-    "vue": "html"
-  },
-  "files.associations": {
-    ".php_cs": "php",
-    ".php_cs.dist": "php",
-    "*.toml": "yaml"
-  },
+	/**
+	 * PHP CS Fixer
+	 **/
+	"[php]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"php-cs-fixer.onsave": true,
+	"php-cs-fixer.showOutput": false,
+	"php-cs-fixer.autoFixByBracket": false,
+	"php-cs-fixer.rules": "@PSR2",
 
-  /**
-   * PHP
-   **/
-  "php.suggest.basic": false,
+	/**
+	 * Prettier
+	 **/
+	"[javascript]": {
+		"editor.defaultFormatter": "biomejs.biome",
+		"editor.formatOnSave": true
+	},
+	"[json]": {
+		"editor.defaultFormatter": "biomejs.biome",
+		"editor.formatOnSave": true
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "biomejs.biome",
+		"editor.formatOnSave": true
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "biomejs.biome",
+		"editor.formatOnSave": true
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "biomejs.biome",
+		"editor.formatOnSave": true
+	},
+	"prettier.requireConfig": true,
+	"prettier.useEditorConfig": false,
 
-  /**
-   * PHP CS Fixer
-   **/
-  "[php]": {
-    "editor.defaultFormatter": "junstyle.php-cs-fixer"
-  },
-  "php-cs-fixer.onsave": true,
-  "php-cs-fixer.showOutput": false,
-  "php-cs-fixer.autoFixByBracket": false,
-  "php-cs-fixer.rules": "@PSR2",
-
-  /**
-   * Prettier
-   **/
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-  "prettier.requireConfig": true,
-  "prettier.useEditorConfig": false,
-
-  /**
-   * Window Settings
-   **/
-  // "window.nativeTabs": true,
-  "window.zoomLevel": 0.3,
-  "window.titleBarStyle": "native",
-  "customizeUI.titleBar": "inline",
-  "customizeUI.stylesheet": {
-    ".editor .title": "background: transparent !important;",
-    ".editor .title .label-container": "visibility: hidden;",
-    // Hide top-right buttons
-    ".editor .title .actions-container .action-item a": "visibility: hidden;",
-    // Show top-right "settings goto icon"
-    ".editor .title .actions-container .action-item a[title=\"Open Settings (UI)\"]": "visibility: initial;",
-    ".editor .title .actions-container .action-item a[title=\"Open Settings (JSON)\"]": "visibility: initial;",
-    // Make it the "right-most" icon.
-    ".editor .title .actions-container": "flex-direction: row-reverse;",
-    // Only show the scrollbar on hover.
-    ".editor .scrollbar .slider": "visibility: hidden",
-    ".editor .scrollbar:hover .slider": "visibility: initial",
-    // Change cursor color.
-    ".monaco-editor .cursor": "background: linear-gradient(to bottom, #7f00ff, #e100ff) !important; color: #292D3E !important"
-  },
+	/**
+	 * Window Settings
+	 **/
+	// "window.nativeTabs": true,
+	"window.zoomLevel": 0.3,
+	"window.titleBarStyle": "native",
+	"customizeUI.titleBar": "inline",
+	"customizeUI.stylesheet": {
+		".editor .title": "background: transparent !important;",
+		".editor .title .label-container": "visibility: hidden;",
+		// Hide top-right buttons
+		".editor .title .actions-container .action-item a": "visibility: hidden;",
+		// Show top-right "settings goto icon"
+		".editor .title .actions-container .action-item a[title=\"Open Settings (UI)\"]": "visibility: initial;",
+		".editor .title .actions-container .action-item a[title=\"Open Settings (JSON)\"]": "visibility: initial;",
+		// Make it the "right-most" icon.
+		".editor .title .actions-container": "flex-direction: row-reverse;",
+		// Only show the scrollbar on hover.
+		".editor .scrollbar .slider": "visibility: hidden",
+		".editor .scrollbar:hover .slider": "visibility: initial",
+		// Change cursor color.
+		".monaco-editor .cursor": "background: linear-gradient(to bottom, #7f00ff, #e100ff) !important; color: #292D3E !important"
+	},
+	"cSpell.userWords": ["modelcontextprotocol", "Streamable"],
+	"totalTypeScript.hideAllTips": false,
+	"totalTypeScript.hideBasicTips": false
 }
