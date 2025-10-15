@@ -11,6 +11,7 @@
 	"window.newWindowDimensions": "inherit",
 	"editor.multiCursorModifier": "ctrlCmd",
 	"files.trimTrailingWhitespace": true,
+	"git.confirmSync": false,
 
 	"diffEditor.renderSideBySide": false,
 	"editor.snippetSuggestions": "top",
@@ -117,25 +118,31 @@
 	/**
 	 * Prettier
 	 **/
+	"biome.configurationPath": ".config/biome.json",
 	"[javascript]": {
 		"editor.defaultFormatter": "biomejs.biome",
-		"editor.formatOnSave": true
+		"editor.formatOnSave": true,
+		"editor.tabSize": 2
 	},
 	"[json]": {
 		"editor.defaultFormatter": "biomejs.biome",
-		"editor.formatOnSave": true
+		"editor.formatOnSave": true,
+		"editor.tabSize": 2
 	},
 	"[jsonc]": {
 		"editor.defaultFormatter": "biomejs.biome",
-		"editor.formatOnSave": true
+		"editor.formatOnSave": true,
+		"editor.tabSize": 2
 	},
 	"[typescriptreact]": {
 		"editor.defaultFormatter": "biomejs.biome",
-		"editor.formatOnSave": true
+		"editor.formatOnSave": true,
+		"editor.tabSize": 2
 	},
 	"[typescript]": {
 		"editor.defaultFormatter": "biomejs.biome",
-		"editor.formatOnSave": true
+		"editor.formatOnSave": true,
+		"editor.tabSize": 2
 	},
 	"prettier.requireConfig": true,
 	"prettier.useEditorConfig": false,
@@ -163,9 +170,9 @@
 		// Change cursor color.
 		".monaco-editor .cursor": "background: linear-gradient(to bottom, #7f00ff, #e100ff) !important; color: #292D3E !important"
 	},
-	"cSpell.userWords": ["modelcontextprotocol", "Streamable"],
+	"cSpell.userWords": ["Hasura", "modelcontextprotocol", "Streamable"],
 	"totalTypeScript.hideAllTips": false,
 	"totalTypeScript.hideBasicTips": false,
-	"git.confirmSync": false,
-	"github.copilot.nextEditSuggestions.enabled": false
+	"github.copilot.nextEditSuggestions.enabled": false,
+	"totalTypeScript.hiddenTips": ["ts-object-type"]
 }
