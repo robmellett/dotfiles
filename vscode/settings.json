@@ -16,6 +16,7 @@
   "editor.detectIndentation": true,
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
+  "git.enableSmartCommit": true,
 
   /**
    * Hide Everything
@@ -161,5 +162,5 @@
     ".editor .scrollbar:hover .slider": "visibility: initial",
     // Change cursor color.
     ".monaco-editor .cursor": "background: linear-gradient(to bottom, #7f00ff, #e100ff) !important; color: #292D3E !important"
-  }
+  },
 }
