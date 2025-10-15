@@ -13,8 +13,7 @@
 
   "diffEditor.renderSideBySide": false,
   "editor.snippetSuggestions": "top",
-  "editor.detectIndentation": false,
-  "window.nativeFullScreen": false,
+  "editor.detectIndentation": true,
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
 
@@ -54,6 +53,7 @@
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "editor.gotoLocation.multipleImplementations": "goto",
   "editor.gotoLocation.multipleTypeDefinitions": "goto",
+
 
   /**
    * Typography
